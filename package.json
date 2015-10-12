@@ -1,0 +1,32 @@
+{
+  "name": "normalize.css.js",
+  "version": "1.0.0",
+  "description": "Inject normalize.css into browser by require(\"normalize.css.js\"). This also returns the css code and safe to run on the server.",
+  "main": "index.js",
+  "files": [
+    "compile.js"
+  ],
+  "scripts": {
+    "postinstall": "node compile.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smallhelm/normalize.css.js.git"
+  },
+  "keywords": [
+    "normalize.css",
+    "css",
+    "isomorphic"
+  ],
+  "author": "smallhelm",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smallhelm/normalize.css.js/issues"
+  },
+  "homepage": "https://github.com/smallhelm/normalize.css.js#readme",
+  "dependencies": {
+    "clean-css": "^3.4.5",
+    "css-to-css.js": "^1.0.1",
+    "normalize.css": "^3.0.3"
+  }
+}
